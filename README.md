@@ -28,7 +28,18 @@ progress-monitoring suggestions.
 ---
 
 ## Getting Started
-### Clone the repo
+### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/iep-assistant.git
+git clone https://github.com/MangDynasty/iep-assistant.git
 cd iep-assistant
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the development server
+```bash
+uvicorn app.main:app --reload
+```
