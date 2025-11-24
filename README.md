@@ -43,3 +43,35 @@ pip install -r requirements.txt
 ```bash
 uvicorn app.main:app --reload
 ```
+
+### Privacy & Ethical Considerations
+
+This project is a demo and should never be used with real student names or PHI.
+All student entries must use pseudonyms or placeholders (e.g., “Student A”).
+Data is handled in-memory or stored in a local SQLite DB for development only.
+Future work includes configurable local-only operation and optional encrypted storage.
+
+### Roadmap
+Phase 1 (current)
+  Basic student + IEP CRUD
+  Structured data models
+  Export features (docx or HTML)
+  Privacy enforcement (no PII)
+
+Phase 2
+  AI-assisted drafting for:
+  Present levels
+  SMART goals
+  Accommodations
+  Service recommendations
+  Input sanitization for LLM safety
+
+Phase 3
+  Authentication (teacher accounts)
+  Optional district-level analytics (synthetic data only)
+  Deployment with limited demo functionality
+
+
+### License
+
+MIT License
