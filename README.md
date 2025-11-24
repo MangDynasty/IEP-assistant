@@ -44,6 +44,12 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
+### or Run with Docker
+```bash
+docker build -t iep-assistant .
+docker run -p 8000:8000 iep-assistant
+```
+
 ### Privacy & Ethical Considerations
 
 This project is a demo and should never be used with real student names or PHI.
